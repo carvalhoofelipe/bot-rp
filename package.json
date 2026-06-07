@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "type": "commonjs",
   "scripts": {
-    "start": "node src/index.js",
+    "start": "node index.js",
     "start:web": "node src/web/index.js",
     "deploy": "node src/deploy-commands.js",
     "dev:web": "vite --host 127.0.0.1 --port 5173",

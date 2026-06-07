@@ -1,5 +1,10 @@
 # Patch Notes
 
+## 0.8.7 - 07/06/2026
+
+- Script `npm start` agora usa o `index.js` da raiz, alinhando o entrypoint local com o entrypoint configurado para a Discloud.
+- `discloud.config` ajustado para iniciar via `npm start`.
+
 ## 0.8.6 - 07/06/2026
 
 - Adicionado `index.js` na raiz como entrypoint da Discloud, carregando `src/index.js`.
