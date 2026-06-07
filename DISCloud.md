@@ -42,7 +42,7 @@ Como o app está configurado como `TYPE=site`, o painel web ficará disponível 
 https://bot-rp.discloud.app
 ```
 
-O mesmo processo continua iniciando o bot do Discord, porque o `MAIN=src/index.js` sobe o bot e o painel juntos.
+O mesmo processo continua iniciando o bot do Discord, porque o `MAIN=index.js` carrega `src/index.js`, que sobe o bot e o painel juntos.
 
 Na Discloud, mantenha:
 

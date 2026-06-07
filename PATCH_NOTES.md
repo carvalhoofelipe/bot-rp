@@ -1,5 +1,10 @@
 # Patch Notes
 
+## 0.8.6 - 07/06/2026
+
+- Adicionado `index.js` na raiz como entrypoint da Discloud, carregando `src/index.js`.
+- `discloud.config` atualizado para `MAIN=index.js` e `START=node index.js`.
+
 ## 0.8.5 - 07/06/2026
 
 - Painel web ajustado para escutar em `0.0.0.0` e porta padrão `8080`, conforme exigência da Discloud para sites.
