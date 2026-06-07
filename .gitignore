@@ -1,0 +1,11 @@
+.env
+node_modules/
+*.log
+database.sqlite
+database.sqlite-shm
+database.sqlite-wal
+bot-rp.zip
+bot-rp-discloud.zip
+.agents/
+.codex/
+src/web/client/node_modules/

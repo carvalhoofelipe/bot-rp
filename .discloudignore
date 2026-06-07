@@ -1,0 +1,14 @@
+node_modules
+.git
+.agents
+.codex
+database.sqlite
+database.sqlite-shm
+database.sqlite-wal
+*.log
+bot.log
+bot.err.log
+web-panel.log
+web-panel.err.log
+src/web/client/node_modules
+src/web/client/dist
